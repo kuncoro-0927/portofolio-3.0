@@ -86,6 +86,7 @@ export default function Sidebar() {
       <div className="mt-12 flex flex-row gap-6">
         <Link
           target="_blank"
+          aria-label="Linkedin"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/khitan-hesthi-kuncoro"
           className=""
@@ -94,12 +95,18 @@ export default function Sidebar() {
         </Link>
         <Link
           target="_blank"
+          aria-label="Github"
           rel="noopener noreferrer"
           href="https://github.com/kuncoro-0927"
         >
           <FaGithub className="text-abu-abu hover:text-white duration-300 text-xl" />
         </Link>
-        <Link target="_blank" rel="noopener noreferrer" href="">
+        <Link
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+          href=""
+        >
           <FaInstagram className="text-abu-abu hover:text-white duration-300 text-xl" />
         </Link>
       </div>

@@ -43,6 +43,7 @@ export default function Footer() {
             <li>
               <Link
                 target="_blank"
+                aria-label="Linkedin"
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/khitan-hesthi-kuncoro"
                 className=""
@@ -53,6 +54,7 @@ export default function Footer() {
             <li>
               <Link
                 target="_blank"
+                aria-label="Github"
                 rel="noopener noreferrer"
                 href="https://github.com/kuncoro-0927"
               >
@@ -60,7 +62,12 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link target="_blank" rel="noopener noreferrer" href="">
+              <Link
+                target="_blank"
+                aria-label="Instagram"
+                rel="noopener noreferrer"
+                href=""
+              >
                 <FaInstagram className="text-abu-abu hover:text-white duration-300 text-xl" />
               </Link>
             </li>
