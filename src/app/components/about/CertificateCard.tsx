@@ -11,7 +11,7 @@ const CertificateCard = ({ certificate }: Props) => {
         <Image src={certificate.image} width={50} height={50} alt="" />
 
         <div className="flex flex-col gap-1">
-          <span className="font-medium text-lg lg:text-xl whitespace-nowrap">{certificate.name}</span>
+          <span className="font-medium text-base lg:text-xl whitespace-nowrap">{certificate.name}</span>
           <span className="font-medium text-sm text-abu-abu">
             {certificate.provider}
           </span>
