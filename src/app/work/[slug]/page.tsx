@@ -46,7 +46,7 @@ export default async function ProjectDetailPage({
         </Link>
 
         <div className="">
-          <h2 className="text-2xl xl:text-4xl font-medium">{project.title}</h2>
+          <h2 className="text-2xl lg:text-4xl font-medium">{project.title}</h2>
           <span className="text-sm text-abu-abu">{project.subtitle}</span>
           <div className="mt-8 grid grid-cols-2 items-center gap-8">
             {/* Role */}

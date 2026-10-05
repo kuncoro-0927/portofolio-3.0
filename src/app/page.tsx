@@ -14,7 +14,7 @@ export default function Home() {
 
       <section className="my-12 lg:my-24">
         <div className="flex items-center justify-between">
-          <h2 className="text-2xl xl:text-4xl font-medium">Latest Project</h2>
+          <h2 className="text-2xl lg:text-4xl font-medium">Latest Project</h2>
           <span className="group flex cursor-pointer items-center gap-1">
             See all works
             <span className="relative inline-block h-5 w-5 overflow-hidden">
@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       <section className="my-12 lg:my-24">
-        <h2 className="text-2xl xl:text-4xl font-medium">Services</h2>
+        <h2 className="text-2xl lg:text-4xl font-medium">Services</h2>
 
         <div className="mt-8 lg:mt-14 flex flex-col gap-4 lg:gap-6">
           <ServiceCard title="Landing Page" icon={FiLayout} />

@@ -11,7 +11,7 @@ export default function About() {
       </section>
 
       <section className="my-12 lg:my-24">
-        <h2 className="text-2xl xl:text-4xl font-medium">My Experiences</h2>
+        <h2 className="text-2xl lg:text-4xl font-medium">My Experiences</h2>
 
         <div className="mt-12 lg:mt-14 flex flex-col gap-6">
           <ExperienceCard
@@ -29,7 +29,9 @@ export default function About() {
       </section>
 
       <section className="my-12 lg:my-24">
-        <h2 className="text-2xl xl:text-4xl font-medium">My Courses & Certification</h2>
+        <h2 className="text-2xl lg:text-4xl font-medium">
+          My Courses & Certification
+        </h2>
 
         <div className="mt-8 lg:mt-14 flex flex-col gap-4 lg:gap-6">
           {certificateData.map((c) => (

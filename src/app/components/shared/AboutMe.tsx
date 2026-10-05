@@ -16,18 +16,16 @@ export default function AboutMe() {
       <span className="text-xl font-normal">Frontend Developer</span>
 
       <p className="mt-6 text-abu-abu leading-tight text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugiat
-        vel adipisci sequi a animi excepturi qui porro saepe fugit facilis
-        doloremque ab sint, tenetur laudantium delectus quibusdam? Perferendis
-        perspiciatis voluptates in quis deserunt, doloribus officiis?
-        Consectetur quas, quaerat veniam reiciendis doloribus neque impedit
-        magni debitis. Aliquid libero aperiam ut? <br />
+        Hi, I&apos;m Khitan Hesthi Kuncoro, a freelance web developer and
+        Informatics Technology graduate (D3) from Universitas Brawijaya with a
+        3.90 GPA. I build clean, responsive websites, from landing pages and
+        company profiles to redesigns and fully custom web projects. <br />
       </p>
       <p className="mt-3 text-abu-abu leading-tight text-lg">
-        {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-        temporibus, eos officia voluptatum debitis expedita maiores est fuga
-        impedit pariatur.
+        I work with React, Next.js, and Tailwind CSS, and hold a BNSP Junior Web
+        Developer certification. I enjoy turning designs into polished
+        interfaces with smooth animations, and I like working closely with
+        clients so the result matches their vision.
       </p>
     </div>
   );

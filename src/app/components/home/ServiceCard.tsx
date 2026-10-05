@@ -8,7 +8,7 @@ export type ServiceCardProps = {
 export default function ServiceCard({ icon: Icon, title }: ServiceCardProps) {
   return (
     <div className="p-6 lg:p-10  flex items-center justify-between border border-white/10 bg-hitam hover:border-white duration-300 cursor-pointer">
-      <span className="font-medium text-base lg:text-xl">{title}</span>
+      <span className="font-medium text-base lg:text-lg">{title}</span>
       <Icon className="text-white text-xl lg:text-2xl" />
     </div>
   );
