@@ -1,9 +1,16 @@
+"use client"
+
+import { useReveal } from "../hooks/useReveal";
 export default function Contact() {
+  const h2ref = useReveal<HTMLHeadingElement>({ delay: 0.2 });
+  const divref = useReveal<HTMLDivElement>({ delay: 0.3 });
   return (
     <section className="">
-      <h2 className="text-2xl lg:text-4xl font-medium">Let&apos;s Talk</h2>
+      <h2 ref={h2ref} className="text-2xl lg:text-4xl font-medium">
+        Let&apos;s Talk
+      </h2>
 
-      <div className="flex flex-col mt-8 lg:mt-14 gap-6">
+      <div ref={divref} className="flex flex-col mt-8 lg:mt-14 gap-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
           <div className="flex flex-col gap-3">
             <label htmlFor="name" className="text-abu-abu text-sm font-medium">

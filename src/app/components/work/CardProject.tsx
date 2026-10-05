@@ -1,17 +1,20 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Project } from "@/app/data/workData";
-
+import { useReveal } from "@/app/hooks/useReveal";
 type Props = {
   project: Project;
   variant?: "default" | "compact";
 };
 
 const CardProject = ({ project, variant = "default" }: Props) => {
+  const divref = useReveal<HTMLDivElement>({ delay: 0.3 });
   return (
     <Link href={`/work/${project.slug}`}>
-      <div className="group w-full cursor-pointer">
+      <div ref={divref} className="group w-full cursor-pointer">
         {/* wrapper biar zoom tidak keluar frame */}
         <div className="relative overflow-hidden aspect-4/3">
           <Image
