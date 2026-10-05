@@ -18,7 +18,7 @@ export default function NavbarMobile() {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-4 z-50 mx-4 mt-4 lg:hidden ">
+    <nav className="sticky top-4 z-50 mx-4 sm:mx-20 lg:mx-60 mt-4 xl:hidden ">
       {/* baris atas */}
       <div className="absolute inset-x-0 top-0 overflow-hidden border border-white/10 bg-hitam/60 backdrop-blur-xl">
         {/* baris atas */}

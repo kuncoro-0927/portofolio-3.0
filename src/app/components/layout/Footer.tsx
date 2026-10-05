@@ -2,8 +2,8 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="px-4 py-12 xl:px-28 xl:py-14 bg-hitam border-t border-white/10">
-      <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-80">
+    <footer className="px-4 sm:px-20 pt-12 xl:px-28 xl:pt-14 bg-hitam border-t border-white/10">
+      <div className="flex flex-col md:flex-row items-start gap-6 md:gap-80">
         <div>
           <ul className="flex flex-col gap-1 text-xl font-medium">
             <li className="text-abu-abu text-sm font-normal">Menu</li>
@@ -73,6 +73,12 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="mt-12 -mx-4 sm:-mx-20 xl:-mx-28 py-6 border-t border-white/10 flex justify-center items-center text-center gap-1">
+        <span className="text-abu-abu text-sm">
+          © 2026 Kuncoro. All rights reserved.
+        </span>
       </div>
     </footer>
   );

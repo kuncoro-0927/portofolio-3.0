@@ -16,7 +16,7 @@ export default function Sidebar() {
     { href: "/contact", label: "Contact" },
   ];
   return (
-    <div className="h-screen sticky top-0 hidden lg:block xl:p-8 bg-hitam border-r border-white/10 text-white max-w-[350px] w-full overflow-y-auto scrollbar-hide">
+    <div className="h-screen sticky top-0 hidden xl:block lg:p-8 bg-hitam border-r border-white/10 text-white max-w-[350px] 2xl:max-w-[450px] w-full overflow-y-auto scrollbar-hide">
       <div className="flex items-center justify-between gap-6 ">
         <span className="font-medium text-lg">Khitan Hesthi Kuncoro</span>
         <Image
@@ -29,7 +29,7 @@ export default function Sidebar() {
       </div>
 
       {/* border */}
-      <div className="border-b my-6 xl:-mx-8 border-white/10"></div>
+      <div className="border-b my-6 lg:-mx-8 border-white/10"></div>
 
       <div className="flex items-center gap-3 justify-between">
         <div className="flex items-center gap-3">
@@ -44,7 +44,7 @@ export default function Sidebar() {
         <BookACall />
       </div>
       {/* border */}
-      <div className="border-b my-6 xl:-mx-8 border-white/10"></div>
+      <div className="border-b my-6 lg:-mx-8 border-white/10"></div>
 
       <div>
         <ul className="flex flex-col gap-1 text-2xl font-medium">

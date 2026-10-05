@@ -6,7 +6,7 @@ export default function CTA() {
   const spanref = useReveal<HTMLSpanElement>({ delay: 0.3 });
   const divref = useReveal<HTMLDivElement>({ delay: 0.4 });
   return (
-    <section className="px-4 py-12 xl:px-28 xl:py-14">
+    <section className="px-4 sm:px-20 py-12 xl:px-28 xl:py-14">
       <h2 ref={h2ref} className="text-2xl lg:text-4xl mb-2 font-medium">
         Let&apos;s Create Something <br /> Great Together
       </h2>
