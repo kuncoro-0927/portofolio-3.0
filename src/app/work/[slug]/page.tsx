@@ -46,7 +46,7 @@ export default async function ProjectDetailPage({
         </Link>
 
         <div className="">
-          <h2 className="text-4xl font-medium">{project.title}</h2>
+          <h2 className="text-2xl xl:text-4xl font-medium">{project.title}</h2>
           <span className="text-sm text-abu-abu">{project.subtitle}</span>
           <div className="mt-8 grid grid-cols-2 items-center gap-8">
             {/* Role */}
@@ -105,7 +105,7 @@ export default async function ProjectDetailPage({
           />
         </div>
 
-        <div className="mt-14 flex justify-between gap-20 items-start">
+        <div className="mt-14 flex flex-col lg:flex-row justify-between gap-4 lg:gap-20 items-start">
           <span className="w-40 shrink-0 text-sm text-abu-abu font-medium">
             Project Overview
           </span>

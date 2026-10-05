@@ -4,9 +4,9 @@ export default function Work() {
   return (
     <section>
       <div className="flex items-center justify-between">
-        <h2 className="xl:text-4xl font-medium">Latest Project</h2>
+        <h2 className="text-2xl xl:text-4xl font-medium">Latest Project</h2>
       </div>
-      <div className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="mt-8 lg:mt-14 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
         {workData.map((p) => (
           <CardProject key={p.slug} project={p} variant="compact" />
         ))}

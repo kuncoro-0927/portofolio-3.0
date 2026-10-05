@@ -10,10 +10,10 @@ export default function About() {
         <AboutMe />
       </section>
 
-      <section className="my-24">
-        <h2 className="xl:text-4xl font-medium">My Experience</h2>
+      <section className="my-12 lg:my-24">
+        <h2 className="text-2xl xl:text-4xl font-medium">My Experiences</h2>
 
-        <div className="mt-14 flex flex-col gap-6">
+        <div className="mt-12 lg:mt-14 flex flex-col gap-6">
           <ExperienceCard
             role="Frontend Developer"
             year="Aug 2026 - Feb 2027"
@@ -28,17 +28,17 @@ export default function About() {
         </div>
       </section>
 
-      <section className="my-24">
-        <h2 className="xl:text-4xl font-medium">My Courses & Certification</h2>
+      <section className="my-12 lg:my-24">
+        <h2 className="text-2xl xl:text-4xl font-medium">My Courses & Certification</h2>
 
-        <div className="mt-14 flex flex-col gap-6">
+        <div className="mt-8 lg:mt-14 flex flex-col gap-4 lg:gap-6">
           {certificateData.map((c) => (
             <CertificateCard key={c.name} certificate={c} />
           ))}
         </div>
       </section>
 
-      <section className="mt-24">
+      <section className="mt-12 lg:mt-24">
         <TechStack />
       </section>
     </>

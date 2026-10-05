@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="px-6 py-12 xl:px-28 xl:py-14 bg-hitam border-t border-white/10">
+    <footer className="px-4 py-12 xl:px-28 xl:py-14 bg-hitam border-t border-white/10">
       <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-80">
         <div>
           <ul className="flex flex-col gap-1 text-xl font-medium">

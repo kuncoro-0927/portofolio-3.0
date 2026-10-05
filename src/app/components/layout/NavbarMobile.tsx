@@ -20,7 +20,7 @@ export default function NavbarMobile() {
   return (
     <nav className="sticky top-4 z-50 mx-4 mt-4 lg:hidden ">
       {/* baris atas */}
-      <div className="absolute inset-x-0 top-0 overflow-hidden border border-white/10 bg-hitam/40 backdrop-blur-xl">
+      <div className="absolute inset-x-0 top-0 overflow-hidden border border-white/10 bg-hitam/60 backdrop-blur-xl">
         {/* baris atas */}
         <div className="flex h-20 items-center justify-between px-4">
           <span>Khitan Hesthi Kuncoro</span>
