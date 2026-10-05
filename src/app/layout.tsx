@@ -30,7 +30,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
         <div className="flex-1 flex flex-col bg-black text-white">
           <NavbarMobile />
-          <main className="flex-1 p-4 xl:p-28 xl:pb-14">{children}</main>
+          <main className="flex-1 mt-20 lg:mt-0 p-4 xl:p-28 xl:pb-14">
+            {children}
+          </main>
           <CTA />
           <Footer />
         </div>
