@@ -12,7 +12,7 @@ const interSans = Inter_Tight({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nama Kamu | Web Developer",
+    default: "Kuncoro | Frontend Developer",
     template: "%s | Nama Kamu",
   },
   description:
