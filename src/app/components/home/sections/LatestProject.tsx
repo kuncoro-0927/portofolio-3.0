@@ -23,7 +23,7 @@ export default function LatestProjectSection() {
           </span>
         </Link>
       </div>
-      <div className="mt-8 lg:mt-14 grid-cols-1 lg:grid grid-cols-2 gap-6">
+      <div className="mt-8 lg:mt-14 grid grid-cols-1 lg:grid-cols-2 gap-8">
         {workData.slice(0, 2).map((p) => (
           <CardProject key={p.slug} project={p} variant="compact" />
         ))}
