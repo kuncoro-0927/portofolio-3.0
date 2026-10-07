@@ -1,7 +1,7 @@
 "use client";
 import CardProject from "../components/work/CardProject";
 import { workData } from "../data/workData";
-import { useReveal } from "../hooks/useReveal";
+import { useReveal } from "../../hooks/useReveal";
 export default function Work() {
   const ref = useReveal<HTMLHeadingElement>({ delay: 0.2 });
   return (

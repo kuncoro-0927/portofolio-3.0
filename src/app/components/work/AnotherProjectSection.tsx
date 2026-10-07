@@ -1,8 +1,8 @@
 "use client";
 
 import CardProject from "./CardProject";
-import { Project } from "@/app/data/workData";
-import { useReveal } from "@/app/hooks/useReveal";
+import { Project } from "@/data/workData";
+import { useReveal } from "@/hooks/useReveal";
 type Props = {
   others: Project[];
 };

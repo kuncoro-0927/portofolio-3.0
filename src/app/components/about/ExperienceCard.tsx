@@ -1,6 +1,6 @@
 "use client";
 
-import { useReveal } from "@/app/hooks/useReveal";
+import { useReveal } from "@/hooks/useReveal";
 
 export type ServiceCardProps = {
   company: string;

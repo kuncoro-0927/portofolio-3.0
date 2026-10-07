@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { GoArrowLeft, GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
-import { Project } from "@/app/data/workData";
-import { useReveal } from "@/app/hooks/useReveal";
+import { Project } from "@/data/workData";
+import { useReveal } from "@/hooks/useReveal";
 type Props = {
   project: Project;
 };
@@ -34,34 +34,34 @@ export default function HeaderDetail({ project }: Props) {
       </Link>
 
       <div className="">
-        <h2 ref={h2ref} className="text-2xl lg:text-4xl font-medium">
+        <h2 ref={h2ref} className="text-2xl mb-1 lg:text-4xl font-medium">
           {project.title}
         </h2>
-        <span ref={spanref} className="text-sm text-abu-abu">
+        <span ref={spanref} className="text-sm font-medium text-abu-abu">
           {project.subtitle}
         </span>
         <div ref={divref} className="mt-8 grid grid-cols-2 items-center gap-8">
           {/* Role */}
           <div className="flex flex-col gap-1">
-            <span className="text-sm text-[#6c6c6c] font-medium">Role</span>
+            <span className="text-sm text-abu-abu font-medium">Role</span>
             <span className="font-medium text-lg">{project.role}</span>
           </div>
 
           {/* Company */}
           <div className="flex flex-col gap-1">
-            <span className="text-sm text-[#6c6c6c] font-medium">Company</span>
+            <span className="text-sm text-abu-abu font-medium">Company</span>
             <span className="font-medium text-lg">{project.company}</span>
           </div>
 
           {/* Category */}
           <div className="flex flex-col gap-1">
-            <span className="text-sm text-[#6c6c6c] font-medium">Category</span>
+            <span className="text-sm text-abu-abu font-medium">Category</span>
             <span className="font-medium text-lg">{project.category}</span>
           </div>
 
           {/* Live */}
           <div className="flex flex-col gap-1">
-            <span className="text-sm text-[#6c6c6c] font-medium ">Project</span>
+            <span className="text-sm text-abu-abu font-medium ">Project</span>
             <Link
               target="_blank"
               rel="noopener noreferrer"
@@ -104,12 +104,11 @@ export default function HeaderDetail({ project }: Props) {
 
       <div ref={div3ref} className="mt-14 flex flex-col gap-y-14">
         {project.images.map((src, i) => (
-          <div key={src} className="relative aspect-video overflow-hidden">
+          <div key={src} className="relative aspect-4/3 overflow-hidden">
             <Image
               src={src}
               alt={`${project.title} - gambar ${i + 1}`}
               fill
-              sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"
             />
           </div>

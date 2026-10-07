@@ -2,9 +2,9 @@
 
 import ServiceCard from "../ServiceCard";
 import { FiLayout, FiBriefcase, FiRefreshCw, FiCode } from "react-icons/fi";
-import { useReveal } from "@/app/hooks/useReveal";
+import { useReveal } from "@/hooks/useReveal";
 export default function ServicesSection() {
-  const ref = useReveal<HTMLHeadingElement>({ delay: 0.20 });
+  const ref = useReveal<HTMLHeadingElement>({ delay: 0.2 });
   const services = [
     { title: "Landing Page", icon: <FiLayout /> },
     { title: "Company Profile", icon: <FiBriefcase /> },

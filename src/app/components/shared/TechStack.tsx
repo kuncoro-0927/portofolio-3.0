@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import { techStack } from "../../data/softwareData";
-import { useReveal } from "@/app/hooks/useReveal";
+import { techStack } from "@/data/softwareData";
+import { useReveal } from "@/hooks/useReveal";
 export default function TechStack() {
   const h2ref = useReveal<HTMLHeadingElement>({ delay: 0.2 });
   const div = useReveal<HTMLDivElement>({ delay: 0.3 });

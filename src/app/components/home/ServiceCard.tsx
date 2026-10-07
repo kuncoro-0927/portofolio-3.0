@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { useReveal } from "@/app/hooks/useReveal";
+import { useReveal } from "@/hooks/useReveal";
 export type ServiceCardProps = {
   icon: ReactNode;
   title: string;

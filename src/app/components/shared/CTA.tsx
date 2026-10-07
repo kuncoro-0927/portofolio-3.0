@@ -1,6 +1,6 @@
 "use client";
 import BookACall from "../ui/button/BookACall";
-import { useReveal } from "@/app/hooks/useReveal";
+import { useReveal } from "@/hooks/useReveal";
 export default function CTA() {
   const h2ref = useReveal<HTMLHeadingElement>({ delay: 0.2 });
   const spanref = useReveal<HTMLSpanElement>({ delay: 0.3 });

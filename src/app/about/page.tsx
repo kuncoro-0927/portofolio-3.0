@@ -4,7 +4,7 @@ import ExperienceCard from "../components/about/ExperienceCard";
 import CertificateCard from "../components/about/CertificateCard";
 import TechStack from "../components/shared/TechStack";
 import { certificateData } from "../data/certificateData";
-import { useReveal } from "../hooks/useReveal";
+import { useReveal } from "../../hooks/useReveal";
 export default function About() {
   const h2ref = useReveal<HTMLHeadingElement>({ delay: 0.2 });
   const h2ref2 = useReveal<HTMLHeadingElement>({ delay: 0.2 });

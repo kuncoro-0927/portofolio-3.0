@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
-import { useReveal } from "../hooks/useReveal";
+import { useReveal } from "../../hooks/useReveal";
 import { sendContact, type ContactState } from "../actions/contact";
 
 const initial: ContactState = { ok: false, message: "" };
@@ -85,7 +85,9 @@ export default function Contact() {
           {state.message && (
             <p
               role="status"
-              className={state.ok ? "text-green-500 text-sm" : "text-red-500 text-sm"}
+              className={
+                state.ok ? "text-green-500 text-sm" : "text-red-500 text-sm"
+              }
             >
               {state.message}
             </p>

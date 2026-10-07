@@ -1,7 +1,7 @@
 "use client";
 import { Certificate } from "@/app/data/certificateData";
 import Image from "next/image";
-import { useReveal } from "@/app/hooks/useReveal";
+import { useReveal } from "@/hooks/useReveal";
 type Props = {
   certificate: Certificate;
 };

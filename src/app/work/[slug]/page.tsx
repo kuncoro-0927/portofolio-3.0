@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
-import { workData } from "@/app/data/workData";
-import CardProject from "@/app/components/work/CardProject";
+import { workData } from "@/data/workData";
 import HeaderDetail from "@/app/components/work/HeaderDetail";
 import AnotherProjectSection from "@/app/components/work/AnotherProjectSection";
 
@@ -28,7 +27,7 @@ export default async function ProjectDetailPage({
 
   if (!project) notFound();
 
-  const others = workData.filter((p) => p.slug !== slug).slice(0, 2);
+  const others = workData.filter((p) => p.slug !== slug);
 
   return (
     <>
