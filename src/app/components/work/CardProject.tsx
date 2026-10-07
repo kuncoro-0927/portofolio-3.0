@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { Project } from "@/app/data/workData";
+import { Project } from "@/data/workData";
 import { useReveal } from "@/hooks/useReveal";
 type Props = {
   project: Project;

@@ -3,7 +3,7 @@ import AboutMe from "../components/shared/AboutMe";
 import ExperienceCard from "../components/about/ExperienceCard";
 import CertificateCard from "../components/about/CertificateCard";
 import TechStack from "../components/shared/TechStack";
-import { certificateData } from "../data/certificateData";
+import { certificateData } from "@/data/certificateData";
 import { useReveal } from "../../hooks/useReveal";
 export default function About() {
   const h2ref = useReveal<HTMLHeadingElement>({ delay: 0.2 });
